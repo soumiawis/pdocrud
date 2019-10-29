@@ -71,17 +71,7 @@ CREATE TABLE `utilisateur` (
 --
 
 INSERT INTO `utilisateur` (`id`, `nom`, `prenom`, `adresse`, `formation_id`) VALUES
-(30, 'soumia', 'soumia', 'lille', 8),
-(31, 'papa', 'baba', 'rue de mes parents', 11),
-(61, 'ss', 'ss', 'ss', 8),
-(62, 'sadik', 'soumia', 'ghjj', 8),
-(63, 'sadik', 'soumia', 'ghjj', 8),
-(64, 'sadik', 'soumia', 'ghjj', 8),
-(65, 'sadik', 'soumia', 'ghjj', 8),
-(66, 'sadik', 'soumia', 'ghjj', 8),
-(67, 'sadik', 'soumia', 'ghjj', 8),
-(73, 'sadik', 'sadik', 'kjkcj', 8),
-(74, 'sadik', 'sadik', 'kjkcj', 8);
+(30, 'soumia', 'soumia', 'lille', 8);
 
 --
 -- Index pour les tables déchargées
