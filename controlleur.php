@@ -1,12 +1,7 @@
 <?php
-//var_dump($_GET);
-//variable envoyer par l utilisateur
-//verifier la variable si il existe sinon envoyer une chaine vide 
+
 require('model.php');
 $action = isset($_GET['action']) ? $_GET['action'] :'';
-
-//echo "action =>$action";
-
 
 switch ($action) {
     case 'add':
