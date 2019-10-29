@@ -37,6 +37,7 @@ require('controlleur.php')
       <th scope="col">nom</th>
       <th scope="col">prenom</th>
       <th scope="col">adresse</th>
+      <th scope="col">formation</th>
       <th scope="col">action</th>
     </tr>
   </thead>
