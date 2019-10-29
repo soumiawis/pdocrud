@@ -20,10 +20,10 @@ require('controlleur.php')
       <h1>Binevenue Dans notre centre de formation </h1>
        
 <form action="?action=add" method="GET" class="form-group">
-<div class="form-group"><input type="text" value="<?= $_GET['nom'];?>" name="nom" class ="form-control col-md-6" placeholder="nom"></div>
-<div class="form-group"><input type="text" name="prenom" value="<?= $_GET['prenom'];?>"  class ="form-control col-md-6" placeholder="prenom"></div>
-<div class="form-group"><input type="text" name="adresse"  value="<?= $_GET['adresse'];?>" class ="form-control col-md-6" placeholder="nom"></div>
-<div class="form-group"><input type="text" name="formation_id"  value="<?= $_GET['formation_id'];?>" class ="form-control col-md-6" placeholder="choisissez une formation"></div>
+<div class="form-group"><input type="text"  name="nom" class ="form-control col-md-6" placeholder="nom"></div>
+<div class="form-group"><input type="text" name="prenom"   class ="form-control col-md-6" placeholder="prenom"></div>
+<div class="form-group"><input type="text" name="adresse"   class ="form-control col-md-6" placeholder="nom"></div>
+<div class="form-group"><input type="text" name="formation_id"  class ="form-control col-md-6" placeholder="choisissez une formation"></div>
 <input type="hidden" name="action" value="add"> 
 <button  class="btn btn-success">Ajouter</button>
 

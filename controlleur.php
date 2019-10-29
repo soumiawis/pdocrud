@@ -1,5 +1,5 @@
 <?php
-var_dump($_GET);
+//var_dump($_GET);
 //variable envoyer par l utilisateur
 //verifier la variable si il existe sinon envoyer une chaine vide 
 require('model.php');
